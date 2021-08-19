@@ -1,0 +1,125 @@
+/* General stuff */
+
+* {
+    margin: 0;
+    padding: 0;
+    user-zoom: none;
+    user-select: none;
+    -moz-user-select: none;
+    -webkit-user-drag: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    z-index: 0;
+    /* border: 1px solid red; */
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    overflow-x: hidden;
+}
+
+h1, h2, h3, .h1, .h2, .h3 {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    width: 100%;
+    font-size: 350%;
+}
+
+h2 {
+    color: rgb(206, 206, 206);
+    text-align: center;
+    width: 100%;
+    padding: 3%;
+    font-size: 300%;
+}
+
+/* Reusable Classes */
+
+.section {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), black), url(../imgs/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    padding-bottom: 1%;
+}
+
+.site-text {
+    text-align: center;
+    padding-left: 15%;
+    padding-right: 15%;
+    font-size: 120%;
+    color: white;
+}
+
+.site-text b {
+    font-size: 110%;
+    text-decoration: underline;
+}
+
+.center-container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+
+.dummy {
+    padding-bottom: 100vh;
+}
+
+/* Header Stuff */
+
+header {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.7)), url(../imgs/header-background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    width: 100%;
+    height: 100vh;
+}
+
+#header-content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#header-text {
+    margin-top: 3vh;
+    width: 100%;
+    text-align: center;
+}
+
+#header-img {
+    width: 30%;
+    min-width: 150px;
+    height: auto;
+    margin-top: -10vh;
+}
+
+/* About Section */
+
+.about-img-holder {
+    height: 40vh;
+    text-align: center;
+}
+
+.about-img {
+    height: 100%;
+}
+
