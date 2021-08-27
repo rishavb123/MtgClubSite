@@ -57,7 +57,7 @@ h3 {
 
 /* Reusable Classes */
 
-.section {
+.section:not(header) {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), black), url(../imgs/header-background.jpg);
     background-size: cover;
     background-position: center;
@@ -86,10 +86,6 @@ h3 {
     align-items: center;
     justify-content: center;
     position: absolute;
-}
-
-.dummy {
-    padding-bottom: 100vh;
 }
 
 /* Navigation */
@@ -218,4 +214,8 @@ header {
 .person-container.vertical-display div {
     order: 2;
     text-align: center;
+}
+
+.last-section {
+    height: 100vh !important;
 }
