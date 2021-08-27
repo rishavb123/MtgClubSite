@@ -1,8 +1,6 @@
 /* General stuff */
 
 * {
-    margin: 0;
-    padding: 0;
     user-zoom: none;
     user-select: none;
     -moz-user-select: none;
@@ -94,7 +92,19 @@ h3 {
     padding-bottom: 100vh;
 }
 
-/* Navigation *.
+/* Navigation */
+
+#brand-logo, .navbar-brand{
+    margin: 0;
+    padding: 0;
+}
+
+#brand-icon {
+    width: 1vw;
+    min-width: 50px;
+    margin: 0;
+    padding: 0;
+}
 
 /* Header Stuff */
 
