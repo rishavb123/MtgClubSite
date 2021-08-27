@@ -74,6 +74,12 @@ h3 {
     color: white;
 }
 
+.site-text.vertical-display {
+    text-align: center;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
 .site-text b {
     font-size: 110%;
     text-decoration: underline;
