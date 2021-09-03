@@ -1,5 +1,6 @@
 if (window.innerHeight > window.innerWidth) {
     $("*").addClass("vertical-display");
+    $('#calendar-iframe').attr("src", $('#calendar-iframe').attr("src").replace("WEEK", "MONTH"));
 }
 
 const sections = document.getElementsByClassName("section");

@@ -178,6 +178,18 @@ header {
     transform: scale(1);
 }
 
+/* Calendar */
+
+#calendar-iframe {
+    width: 80%;
+    height: 65vh;
+    margin-left: 10%;
+}
+
+#calendar-iframe.vertical-display {
+    height: 33vh;
+}
+
 /* People Section */
 
 .person-container {
