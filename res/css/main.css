@@ -55,6 +55,7 @@ h3 {
     font-size: 200%;
 }
 
+
 /* Reusable Classes */
 
 .section:not(header) {
@@ -94,6 +95,7 @@ h3 {
     position: absolute;
 }
 
+
 /* Navigation */
 
 #brand-logo, .navbar-brand{
@@ -107,6 +109,7 @@ h3 {
     margin: 0;
     padding: 0;
 }
+
 
 /* Header Stuff */
 
@@ -143,6 +146,7 @@ header {
     margin-top: -10vh;
 }
 
+
 /* About Section */
 
 .about-img-holder {
@@ -178,6 +182,7 @@ header {
     transform: scale(1);
 }
 
+
 /* Calendar */
 
 #calendar-iframe {
@@ -189,6 +194,7 @@ header {
 #calendar-iframe.vertical-display {
     height: 33vh;
 }
+
 
 /* People Section */
 
