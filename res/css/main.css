@@ -224,6 +224,10 @@ header {
     justify-content: center;
 }
 
+.person-description p a {
+    color: rgb(184, 221, 255);
+}
+
 .person-container.vertical-display {
     flex-direction: column;
     width: 96%;
