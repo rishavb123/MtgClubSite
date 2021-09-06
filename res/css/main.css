@@ -162,6 +162,8 @@ header {
 
 .about-img-holder.vertical-display {
     flex-direction: column;
+    width: 80vw;
+    height: 90vw;
 }
 
 .about-img {
@@ -170,6 +172,10 @@ header {
     background-color: black;
     transform: scale(1);
     transition: opacity 1s, transform 1s, z-index 1s;
+}
+
+.about-img.vertical-display{
+    height: 50%;
 }
 
 .about-img:hover {
