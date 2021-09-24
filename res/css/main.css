@@ -117,6 +117,10 @@ p, a {
     padding: 0;
 }
 
+.nav-link {
+    font-family: 'Cinzel Decorative', cursive;
+}
+
 
 /* Header Stuff */
 
