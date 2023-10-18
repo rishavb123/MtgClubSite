@@ -185,13 +185,9 @@ header {
     transition: opacity 1s, transform 1s, z-index 1s;
 }
 
-.about-img {
-    height: auto;
-    width: 100%;
-}
-
 .about-img.vertical-display{
-    height: 50%;
+    width: 80%;
+    height: auto;
 }
 
 .about-img:hover {
